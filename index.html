@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Task List Manager</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="taskManager">Task List Manager</div><br>
+  
+  <label for="newTask">New Task:</label>
+  <input type="text" id="newTask" name="newTask" size="10" />
+  <button id="addButton" onclick="addTask()">Add</button><br>
+
+  <ul id="taskList">
+  </ul><br>
+
+  <div id="taskCount"></div><br>
+
+  <div>Want to remove all of your tasks?</div>
+  <button id="removeAllTasks" onclick="removeAllTasks()">Remove</button>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
